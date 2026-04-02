@@ -1,5 +1,7 @@
 function love.load()
-  love.graphics.setDefaultFilter("nearest", "nearest")
+    love.window.setTitle("Balatro Blackjack")
+
+    love.graphics.setDefaultFilter("nearest", "nearest")
 
     atlas = love.graphics.newImage("cards.png")
     local atlasWidth, atlasHeight = atlas:getDimensions()
